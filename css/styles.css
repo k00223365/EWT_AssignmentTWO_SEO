@@ -1,0 +1,274 @@
+
+#container {
+  width: 100%;
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  background-color: white;
+  min-height:200px;  
+
+}
+
+
+header {
+    background-color: white;
+    width: 100%;
+ 
+    
+   
+}
+nav {
+    border : solid thick black;
+    padding: 10px;
+    border-radius: 1em;
+    background-color: gainsboro;
+    
+}
+
+#navfloat {
+    float: left;
+    margin-left: 90px;    
+}
+
+.navstyle {color: white;
+           text-shadow: 1px 1px 1px black;
+           padding-left: 10px;
+           padding-right: 10px;
+           font: bold;      
+}
+
+.navstyle2 {color: white;
+           text-shadow: 1px 1px 1px black;           
+           padding-right: 10px;
+           font: bold;      
+}
+
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+#searchBar {
+    border: 1px solid black;
+    border-right: none;
+    font-size: 15px;
+    padding: 1px;
+    outline: none;
+    width: 200px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;  
+}
+#searchBtn {
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 1px;
+    background: lightgrey;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;  
+}
+#searchBtn:hover {
+    background: grey;
+}
+
+
+@font-face {                                          
+    font-family: 'discoregular';                                                           
+    src: url('../fonts/DISCO___-webfont.eot');
+    src: url('../fonts/DISCO___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DISCO___-webfont.woff') format('woff'),
+         url('../fonts/DISCO___-webfont.ttf') format('truetype'),
+         url('../fonts/DISCO___-webfont.svg#discoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}                                     
+
+
+
+body {
+    background-color: white; 
+    font-family: 'discoregular', sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    line-height: 150%;
+    color: black;
+   
+}
+
+#imgone {float:left;
+         margin-top: 15px;
+         margin-left: 12px;
+         margin-right: 15px;
+         margin-bottom: 5px;
+         border: solid thin black;
+         border-radius: 1em;
+}
+
+#font {margin-left: 10px;
+       margin-right: 10px; 
+    
+}
+
+h1 {
+    font-size: 3.5em;
+    color: white;
+    
+}
+
+.headlinks {
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#content { border : solid thick black;
+    padding: 10px;
+    border-radius: 1em;
+    background-color: gainsboro;
+}
+
+#contentfooter { border : solid thick black;
+    padding: 0px;
+    border-radius: 1em;
+    background-color: gainsboro;
+}
+
+
+
+.atoms {
+    float: right;
+}
+
+
+
+.centre {
+    text-align: center;
+}
+
+.copyright {
+    color: white;
+    font-size: small;
+    text-shadow: 1px 1px 1px black;
+}
+
+#contact {
+    text-align: center;
+}
+
+#text {
+    color: black;
+}
+
+h2 {
+    font-size: 
+    letter-spacing: 80px;
+    color: white
+}
+
+.highlight {
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.highlight2 {
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+#highlight2 {
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#formstyle {
+    float: left;
+    padding-top: 43px;
+    padding-left: 70px;
+    padding-bottom: 55px;
+}
+
+.formbutton {border: 3px;
+             border-radius: 1em;
+             background-color: white;
+}
+
+#contactpara {padding-top: 78px;
+              padding-left: 460px;
+              padding-right: 30px;
+}
+
+.clear {clear: both;
+}
+
+#sitemap {padding-top: 10px;
+          padding-left: 125px;
+  
+}
+
+.space {padding-right: 20px;}
+
+.navstyle3 {color: white;
+           text-shadow: 1px 1px 1px black;
+           padding-top: 10px;
+           padding-left: 0px;
+           padding-right: 15px;
+           padding-bottom: 10px;
+           font: bold;
+           float:center;
+}
+
+table {width:100%;
+    border:solid 2px black;
+    border-collapse:collapse;   
+    margin-left: 2px;
+    margin-bottom: 20px;    
+    text-align: center;
+}
+th, td{
+    border: solid 2px black;
+    padding: 5px;
+}
+
+.music {
+    border: solid 2px black;
+}
+
+.video {padding-bottom: 10px;
+
+}
+
+.picture {padding-top: 15px;
+
+}
+
+.odd {background-color: darkgray;}
+
+td:hover {
+    background-color: white;
+}
+
+footer {
+    background-color: gainsboro
+}

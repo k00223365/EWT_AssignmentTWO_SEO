@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Music</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <script type="text/javascript">                                         //* https://www.youtube.com/watch?v=38rJPEqapoA *//
+            function active(){
+                var searchBar = document.getElementById('searchBar');
+                
+                if(searchBar.value == 'Search...'){
+                    searchBar.value = ''
+                    searchBar.placeholder = 'Search...'
+                }
+            }
+            function inactive(){
+                var searchBar = document.getElementById('searchBar');
+                
+                if(searchBar.value == ''){
+                    searchBar.value = 'Search...'
+                    searchBar.placeholder = ''
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <img src="img/Artboard%205.png" alt="Mark Hayes Multimedia" width="920" /> 
+                
+                <nav class="headlinks">
+                   <div id="navfloat"> 
+                    <a class="navstyle2" href="index.html">Home</a>
+                    <a class="navstyle" href="page1.html">Music</a>
+                    <a class="navstyle" href="page2.html">Design</a>
+                    <a class="navstyle" href="page3.html">Video</a>
+                    <a class="navstyle" href="page4.html">Contact</a>    
+                   </div>    
+                    <form action="search.php" method="post">
+                        <input type="text" id="searchBar" placeholder="" value="Search..." maxlength="100" autocomplete="off" onMouseDown="active();" onBlur="inactive();" /><input type="submit" id="searchBtn" value="Go!" />
+                    </form>                    
+                </nav>
+            </header>
+            
+            <br>
+            <br>
+          
+            <div id="content">         
+                
+                <p>
+                For the last number of years I have been writing, arranging and self-recording music under the pseudonym, <span class="highlight">The Near Future!</span> A project that combines various elements and styles such as Funk, Jazz, Fusion, Trip-Hop, Rock and Experimental sounds. Using music production software such as, Steinberg's 'Cubase', Avid's 'Sibelius 7' &amp; Wave's 'GTR 3.5'. To date I have self released three E.P.'s....
+
+                <p class="highlight2">'Stop, Start, Rewind' E.P. (2016)</p>
+                <p class="highlight2">'Atoms for Henrietta (Spinning Carousels In Her Mind)' E.P. (2014)</p> 
+                <p id="highlight2">'A Little Understanding' E.P. (2010)</p>
+                
+                    
+                <p class="centre">Various tracks from these E.P.'s have been played on the following radio stations</p>
+
+
+                    
+                    
+            
+                
+                <table>
+                    <tr class="odd">
+                        <td>SmoothJazz.com (USA/Global)</td>
+                        <td>TCRFM 92.3 (Ireland)</td>                    
+                    </tr>
+                    <tr>
+                        <td>BluesJazz Radio (NC/USA)</td>
+                        <td>The Coast Radio (NJ/USA)</td>                    
+                    </tr>
+                     <tr class="odd">
+                        <td>Sound Fusion Radio (London UK)</td>
+                        <td>XRP Radio (Birmingham UK)</td>                    
+                    </tr>
+                    <tr>
+                        <td>The Jazz UK (UK)</td>
+                        <td>Samurai FM (Japan)</td>                    
+                    </tr>
+                    <tr class="odd">
+                        <td>Digest Music Radio (Montenegro ME)</td>
+                        <td>Play FM (Austria)</td>                    
+                    </tr>
+                    <tr>
+                        <td>Electric Lion Radio (London UK)</td>
+                        <td>Cruise FM (London UK/Spain)</td>            </tr> 
+                    <tr class="odd">
+                        <td>Impact Radio (Italy)</td>
+                        <td>Gaudeamus FM 93.6 (UK/East Europe)</td>                    
+                    </tr>
+                    <tr>
+                        <td>Radio Cardiff FM (Wales)</td>
+                        <td>Radio Krimi (France)</td>                    
+                    </tr>
+                    <tr class="odd">
+                        <td>Canora Radio (Madrid, Spain)</td>
+                        <td>Pulse FM (UK)</td>                    
+                    </tr>
+                     <tr>
+                        <td>Rhythm &amp; Soul Radio (USA)</td>
+                        <td></td>                    
+                    </tr>
+                </table>
+                
+                <p>
+        
+                
+                <iframe class="music" width="890" height="405" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/209384733&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                 
+                 <br>
+                    
+                 <br>        
+                    
+                 <iframe class="music" width="890" height="405" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/28158317&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe> 
+                    
+                 <br>
+                 <br>    
+
+                 <iframe class="music" width="890" height="375" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/349915&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                    
+                </p>
+                
+                
+                
+            </div>
+            <br>
+        
+                <footer class="copyright" id="contentfooter">
+                <p class="centre">&copy; 2016, Website built by 'Mark Hayes Multimedia'</p>
+                </footer>
+            <br>                        
+        </div>
+    </body>
+</html>

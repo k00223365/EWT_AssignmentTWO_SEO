@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <script type="text/javascript">                                         
+            function active(){
+                var searchBar = document.getElementById('searchBar');
+                
+                if(searchBar.value == 'Search...'){
+                    searchBar.value = ''
+                    searchBar.placeholder = 'Search...'
+                }
+            }
+            function inactive(){
+                var searchBar = document.getElementById('searchBar');
+                
+                if(searchBar.value == ''){
+                    searchBar.value = 'Search...'
+                    searchBar.placeholder = ''
+                }
+            }
+        </script>
+    </head>
+    <body>          
+        <div id="container">    
+            <header>
+                <img src="img/Artboard%205.png" alt="Mark Hayes Multimedia" width="920" /> 
+                               
+                <nav class="headlinks">
+                   <div id="navfloat"> 
+                    <a class="navstyle" href="index.html">Home</a>
+                    <a class="navstyle" href="page1.html">Music</a>
+                    <a class="navstyle" href="page2.html">Design</a>
+                    <a class="navstyle" href="page3.html">Video</a>
+                    <a class="navstyle" href="page4.html">Contact</a>    
+                   </div>    
+                    <form action="search.php" method="post">
+                        <input type="text" id="searchBar" placeholder="" value="Search..." maxlength="100" autocomplete="off" onMouseDown="active();" onBlur="inactive();" /><input type="submit" id="searchBtn" value="Go!" />
+                    </form>                    
+                </nav>
+            </header>
+            
+            <br>
+            <br>
+            
+            <div id="content">
+                 
+                <img id="imgone" src="img/Portrait-Three.jpg" alt="Mark Hayes" style="width:350px;height:350px;"/>
+                                       
+                <p id="font">
+                    
+                    
+                    Hi there, welcome to 'Mark Hayes Multimedia'.
+                    <br>
+                    <br>
+                     As a skillful and hard-working multimedia student with excellent media creation and problem-solving skills. I am dedicated to producing elegant, well-structured content conforming to best practices and standards across the audio, video, multimedia and data spectrum.                    
+                    <br>
+                    <br>
+                    Currently completing a <span class="highlight">HDip in Creative Multimedia Programming</span> through 'Limerick Institute of Technology, LIT'. I am highly ambitious and aim to learn new skills and progress in any role to the best of my ability. I have a great zeal for providing an excellent and customer-focused service at all times.
+                    
+                   
+                    <br>
+                    <br>
+                    With a <span class="highlight">'Bmus Hons Bachelor Degree in Popular Music Performance, Honours (2.1)'</span> from the 'London College of Music / Tech Music Schools / Thames Valley University' and a <span class="highlight">'Diploma in Popular Music Performance, (Merit)'</span> from 'The Institute of Contemporary Music Performance'.
+                    I have several years experience working in Private Music Education as a freelance music / guitar teacher and a member of 'The Registry of Guitar Tutors'.<br>
+                    <br>
+                    I have set up my own small studio where I spent a lot of time refining and enhancing my skills in the planning, recording, processing and post-production operations of Multimedia. On this site you can find examples of my work in music, design and video.</p>
+                    
+               
+            </div>           
+            <br>
+        
+                <footer class="copyright" id="contentfooter">
+                <p class="centre">&copy; 2016, Website built by 'Mark Hayes Multimedia'</p>
+                </footer>
+            <br>
+            
+            
+            
+        </div>
+    </body>
+</html>
